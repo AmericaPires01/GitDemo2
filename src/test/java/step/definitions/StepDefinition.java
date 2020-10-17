@@ -20,6 +20,7 @@ public class StepDefinition { // When using Tidy Gherkin plug (Tg) in Chrome bro
         public void user_logs_into_the_application_with_username_and_password(String username, String password) {
             System.out.println(" Validate user logging in with " + username + "," + password);
             System.out.println("--- GitCucumber (GitDemo2 project's owner) made one change to the printing statement of @When method of StepDefinition Class and added this ---");
+            
         }
 
         @Then("^Home Page is Displayed$")
