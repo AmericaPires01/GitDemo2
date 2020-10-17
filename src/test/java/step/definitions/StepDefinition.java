@@ -13,6 +13,7 @@ public class StepDefinition { // When using Tidy Gherkin plug (Tg) in Chrome bro
     @Given("^User is on NetBanking landing Page$")  // step definition file should match with tag name and description
         public void user_is_on_netbanking_landing_page() throws Throwable {
             System.out.println("Code to assert Landing Page is present");
+            System.out.println("--- The Guy who cloned the GitDemo2 Code added this printing statement ---");
         }
 
         @When("^User Logs into the application with \"([^\"]*)\" and \"([^\"]*)\"$") //Regular expressions are the key to Cucumber's flexibility. Well-crafted regular expressions let you reuse step definitions, avoiding duplication and keeping your tests maintainable
