@@ -18,7 +18,8 @@ public class StepDefinition { // When using Tidy Gherkin plug (Tg) in Chrome bro
 
         @When("^User Logs into the application with \"([^\"]*)\" and \"([^\"]*)\"$") //Regular expressions are the key to Cucumber's flexibility. Well-crafted regular expressions let you reuse step definitions, avoiding duplication and keeping your tests maintainable
         public void user_logs_into_the_application_with_username_and_password(String username, String password) {
-            System.out.println("Code to validate user logging in with " + username + "," + password);
+            System.out.println(" Validate user logging in with " + username + "," + password);
+            System.out.println("--- GitCucumber (GitDemo2 project's owner) made one change to the printing statement of @When method of StepDefinition Class and added this ---");
         }
 
         @Then("^Home Page is Displayed$")
